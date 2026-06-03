@@ -1,0 +1,15 @@
+{
+  "valid_user": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalid_user": {
+    "username": "wrong_user",
+    "password": "wrong_pass"
+  },
+  "checkout": {
+    "name": "John Doe",
+    "address": "123 Main St, Springfield",
+    "card": "4111111111111111"
+  }
+}

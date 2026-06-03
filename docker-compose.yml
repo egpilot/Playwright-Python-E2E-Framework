@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  tests:
+    build: .
+    image: qa-playwright:latest
+    environment:
+      - TEST_ENV=qa
+    volumes:
+      - ./reports:/app/reports
+    command: pytest -n auto --browser-name chromium --env qa
